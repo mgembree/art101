@@ -1,27 +1,30 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .lab-content {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: transparent;
 }
+
+
 .head1 {
-color:aquamarine;
-background-color: gray;
-font-size: 50px;
-Border: solid 2px black;
+  color:aquamarine;
+  background-color: gray;
+  font-size: 50px;
+  border: solid 2px black;
 }
-h2 {
-font-size: 30px;
-text-decoration: underline;
+
+
+.bottum {
+  background-color: aqua;
 }
+
+
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
 p {
-text-indent: 10px;
+  text-indent: 10px;
 }
-
-
-
-
