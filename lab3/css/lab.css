@@ -9,6 +9,6 @@
   }
 
 .screenshot{
-  width: 900px;
-  height: 600px;
+  max-width: 500px;
+  max-height: 500px;
 }
