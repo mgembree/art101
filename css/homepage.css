@@ -1,13 +1,30 @@
 /* this css file will only style the homepage of our site */
 
 .dexter {
-  margin: 10px;
+  margin-right: 10px;
   max-width: 500px;
   max-height: 500px;
+  background-color: rgba(141, 109, 109, 0.627);
+  width: 255px;
+  height: 305px;
+  padding: 5px;
+  float:right;
 }
 
 .selfie{
-  margin: 20px;
+  margin-right: 20px;
   max-width: 400px;
   max-height: 400px;
+  background-color: rgba(141, 109, 109, 0.627);
+  width: 255px;
+  height: 305px;
+  padding: 5px;
+  float:right;
+}
+
+#header{
+  background-color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
