@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 -  Pseudocoding and Problem Solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +26,90 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem Solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Prepare the Pseudocode For a Simple computer Game & Everyday Task.</p>
 			</div>
-
 			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+				<h1> Pseudocode - UNO </h1>
+				<pre><p5>
+				//Initialize 108 card deck stack
+						//For every 25 cards switch color (Red Green Yellow Blue)
+						// 1: ‘0’ card , 2 of each: ‘1-9’ cards, 2:skips, 2: draw+2, 2:reverses
+					//The remaining 8 cards are 4: +4’s & 4: wilds
+						//0&1-9 cards g(0-9)=green card number 
+						//y!2 = yellow + 2 card 
+					//Shuffle deck (Randomize elements)
+					//Designate a discard pile(stack) which holds nothing now.
+					//create player hands(dynamic arrays)
+					//define function "dealcard" for needed mechanic
+						//popdeckstack, store in player hand
+		
+				//Start game
+						//popdeckstack to get top card then move it to the discard stack
+						//call dealcard 7 times - starting hand is 7 cards for each player/bot
+						
+
+				//Player turn/validation
+						// display the card to the players
+						// display the player’s hand 
+						//game must validate a card can be played and will return the card to the players turn if invalid.
+							//+4 and wild cards can be placed at any time
+							//after being played input is required to tell the next color for discard pile. 
+								// ex: g5 is a green 5 players must play a wild or g() card.
+						// if a player cannot play a card, they will have to draw a card to end their turn.
+						// once validated, turn is handed to next player/bot
+
+				//Game End Scenarios
+						//Once a player has two cards in hand 
+						//the player must type UNO into the console before playing a card or else they must draw another card.
+						//if the deck empties, take all but the top card from the discard stack, randomize and add to deck stack.
+						//Having an empty hand results in a victory
+				</p5></pre>		
+			<div class = "minor-section">
+				<h1> Pseudocode - Everyday Task:Laundry</h1>
+				<pre><p5>
+				//Separate clothing into 2 categories, light & dark.
+				//Light colors will go in one load the dark colors in the other.
+					//Start with the dark colors, and put them in the washing machine.
+					//throw a tide pod in there, open the tray on the side and put in your detergent/softener.
+					//set it to cold since you're doing dark colors. 
+					//turn on the washing machine.
+				//Light colors follow the same steps except it is set to warm.
+				//once the washing machine is done throw it all in the dryer.
+				//throw in 1-2 dryer sheets, clean out the lint trap and turn it on.
+				//once the dryer is done your laundry is clean and dry you're welcome.
+				</p5></pre>
 			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+			<div class = "minor-section">
+				<h1> Pseudocode - Everyday Task:Microwave</h1>
+				<pre><p5>
+					//open the microwave door
+					//owner puts something in the microwave door
+					//if the door is still open
+						//owner can’t use the microwave
+					//else if closed
+						//owner can use the microwave
+				//owner chooses whether a button
+					//if button has a set time
+						//time sets with its default
+					// else if button is a number
+						//place within area
+						//take user back to choose a button
+						//till user has pressed start
+				//timer
+					//if timer is 0:00
+						//owner can open door and take item
+					//else if timer is interrupted
+						//then owner can open and take item
+					//continue
+				</p5></pre>
 			</div>
-
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
+			<a href="https://mgembree.github.io/art101/"> Homepage</a>
 		</nav>
 	</main>
 </body>

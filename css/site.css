@@ -4,19 +4,36 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: black;
+  background-color:rgb(29, 172, 244);
+  
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Comfortaa", sans-serif;
+  size: 40px;
+  font-size: 200%;
 }
 
+p5{
+  font-weight: 200%;
+  padding: 10px;
+  font-family: "Comfortaa", sans-serif;
+  font-palette: rgb(228, 223, 161);
+}
+@font-face{
+  src: url(Comfortaa-VariableFont_wght.ttf);
+  font-family: Comfortaa;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  font-family: "Comfortaa", sans-serif;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -25,7 +42,7 @@ h1 {
   padding: 10px;
   border: solid 1px #000000;
   background-color: #64e4acce;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-palette: rgb(228, 223, 161);
 }
 
@@ -35,5 +52,5 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #090b31;
   background-color: #4b97e3;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
