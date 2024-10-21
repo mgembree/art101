@@ -7,3 +7,20 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+  
+p{
+  text-align: left;
+}
+.carimage{
+  float: right;
+  overflow: hidden;
+}

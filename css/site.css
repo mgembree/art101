@@ -11,8 +11,8 @@ body {
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: "Comfortaa", sans-serif;
-  size: 40px;
-  font-size: 200%;
+  size: 28px;
+  font-size: 100%;
 }
 
 p5{
