@@ -4,7 +4,9 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
+  background-image: url(../img/backgrounddub.jpg);
   background-color:rgb(29, 172, 244);
+  
   
 }
 
@@ -13,6 +15,7 @@ h1,h2,h3 {
   font-family: "Comfortaa", sans-serif;
   size: 28px;
   font-size: 100%;
+  text-align: center;
 }
 
 p5{
@@ -20,6 +23,8 @@ p5{
   padding: 10px;
   font-family: "Comfortaa", sans-serif;
   font-palette: rgb(228, 223, 161);
+  text-align: center;
+
 }
 @font-face{
   src: url(Comfortaa-VariableFont_wght.ttf);
@@ -27,6 +32,7 @@ p5{
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  
 }
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
@@ -34,16 +40,21 @@ h1 {
   word-spacing: 5px;
   font-size: 200%;
   font-family: "Comfortaa", sans-serif;
+  text-align: center;
+
 }
+
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
   border: solid 1px #000000;
-  background-color: #64e4acce;
+  background-image: url(../img/watercolorbackground.jpg);
   font-family: "Comfortaa", sans-serif;
   font-palette: rgb(228, 223, 161);
+  text-align: center;
+
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -53,4 +64,7 @@ h1 {
   border: solid 1px #090b31;
   background-color: #4b97e3;
   font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  background-image: url(../img/watercolorbackground.jpg);
+
 }
