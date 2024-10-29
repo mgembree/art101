@@ -23,7 +23,8 @@
 .albumofweek{
   margin-left: auto;
   margin-right: 550px;
-}
+  background-color: rgba(141, 109, 109, 0.627);
+  padding: 5px;
 
 
 .flex-container {
