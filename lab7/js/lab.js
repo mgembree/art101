@@ -1,4 +1,4 @@
-// index.js - purpose and description here
+// index.js - Lab 7: Functions
 // Author: Matthew Embree
 // Date: 10/28/2024
 
