@@ -20,8 +20,4 @@ console.log("isEven Results: " + numArray.map(function(arr){return arr % 2 == 0;
 
 //Output same as the console, however in webpage view.
 document.querySelector('.output').innerHTML =
-    "The square root of 25 is: "+ numSquared(25) + "<br>"
-  + "The square root of 49 is: "+ numSquared(49) +"<br>"
-  + "Array to be square rooted: " + numArray + "<br>"
-  +"Square Root Results: " + numArray.map(squareRoot)+"<br>"
-  +"isEven Results: " + numArray.map(function(arr){return arr % 2 == 0;});
+    `The square root of 25 is: ${squareRoot(25)}<br>The square root of 49 is: ${squareRoot(49)}<br>Array to be square rooted: ${numArray}<br>Square Root Results: ${numArray.map(squareRoot)}<br>isEven Results: ${numArray.map(function (arr) { return arr % 2 == 0; })}`;
