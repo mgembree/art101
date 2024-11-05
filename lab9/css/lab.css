@@ -1,0 +1,54 @@
+#challenge{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+#results{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+#problems{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+#reflection{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+.minor-section{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #9dc5d9;
+}
+
+.special{
+  background-color: burlywood;
+  border: dotted 5px skyblue;
+  color: gray;  
+}
+
+p{
+text-align: left;
+}
+
+.funny{
+float: right;
+overflow: hidden;
+}

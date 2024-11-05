@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lab 9: Libraries and jQuery</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="js/lab.js" DEFER></script>
+	</head>
+</head>
+<body>
+	<main id="content">
+		<section>
+			<h1>Lab 9: Libraries and jQuery</h1>
+			<div id="challenge">
+				<h2>Challenge</h2>
+				<p>Create a button to change the challenge section to a class named "special", this text will change colors!</p>
+			</div>
+	
+			<div id= "problems">
+				<h2>Problems</h2>
+				<p> I had multiple problems when trying to make the special button. First, the button wouldn't actually change anything,
+					I found out that my css file wasn't linked, thanks to the console in my browser. Then I couldn't make the button toggle the class
+					back and forth, then it would only change the text to the different color. I ended up looking up how to change attributes more accurately,
+					and found the attr() method, which can be used to change a class to an id attribute. it takes the current class, the type of attribute, and the name of 
+					the attribute as its parameters.  
+				</p>
+			</div>
+			
+			<div id="reflection">
+				<h2>Reflection</h2>
+				<p>I learned a lot about how attributes are managed in css and how to manipulate them using jQuery.	</p>
+
+			</div>
+			<div id="results">
+				<h2>Results</h2>
+				<p> I used the instruction example to create the button and attach it to the challenge ID, but 
+					I ended up looking up online how to make the button do what it is intended to do. 
+				</p>
+			</div>
+
+		</section>
+		<nav id="links">
+			<a href="https://mgembree.github.io/art101/">Homepage</a>
+		</nav>
+	</main>
+</body>
+</html>
