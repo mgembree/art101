@@ -1,6 +1,6 @@
-// index.js - Lab 7: Functions
+// index.js - Lab 9: Libraries and jQuery
 // Author: Matthew Embree
-// Date: 10/28/2024
+// Date: 11/4/2024
 
     //add the button to challenge
     $("#challenge").append("<button id='button-challenge'>Make Special</button>");
