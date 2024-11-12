@@ -10,7 +10,7 @@ function sortString(inputString) {
 $("#submit").click(function(){
   const userName = $("#user-name").val();   //ID: user-name from html form
   userNameSorted = sortString(userName);    //sorts user-name from html form.
-  $("#output").html.append('<div class="text"><p>' + userNameSorted + '</p></div>');     //appends a new div to output containing the user name after sorting
+  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');     //replaces the output with the user name after sorting
 });
 
 
