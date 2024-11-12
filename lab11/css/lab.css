@@ -1,0 +1,42 @@
+#challenge{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+#results{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+#problems{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+#reflection{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+
+#output{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+.minor-section{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #76c7f0;
+}
+
+
+p{
+text-align: left;
+}
