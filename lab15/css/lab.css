@@ -1,0 +1,52 @@
+#challenge{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px #5e957a;
+  background-color: #76c7f0;
+  border-radius: 10px;
+}
+#results{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px #5e957a;
+  background-color: #76c7f0;
+  border-radius: 10px;
+}
+#problems{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px #5e957a;
+  background-color: #76c7f0;
+  border-radius: 10px;
+}
+#reflection{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px #5e957a;
+  background-color: #76c7f0;
+  border-radius: 10px;
+}
+.screen{
+  display: inline;
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+}
+#output{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 4px #5e957a;
+  background-color: #76c7f0;
+  border-radius: 10px;
+}
+#debugging{
+  object-fit: contain;
+}
+p3{
+  text-align: left;
+  color: rgb(179, 30, 30);
+}
